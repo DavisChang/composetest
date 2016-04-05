@@ -8,6 +8,8 @@ DOCKER_REGISTRY_HOST=${DOCKER_REGISTRY_HOST}
 
 TAG="${BUILD_NUMBER}-${GIT_COMMIT}"
 
+env 
+
 docker build \
   -t "$DOCKER_REPO_NAME:$TAG" \
   .
