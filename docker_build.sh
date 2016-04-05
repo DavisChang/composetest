@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 TIMESTAMP=`date +"%Y%m%d%H%M%S"`
 DATE=$(date +%d-%m-%Y" "%H:%M:%S)
